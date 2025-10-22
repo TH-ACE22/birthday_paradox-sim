@@ -1,17 +1,34 @@
-# birthday_paradox_sim
+# 🎂 Birthday Paradox Monte Carlo Simulator
 
-A new Flutter project.
+A **Flutter Web App** that uses a **Monte Carlo simulation** to estimate the probability that two people in a group share the same birthday — also known as the *birthday paradox*.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Demo
+👉 [Live Demo](https:th-ace22.github.io/birthday_paradox_sim/)  
+*(Replace with your actual GitHub Pages link once deployed)*
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧠 About the Project
+This project demonstrates how **Monte Carlo methods** can be used to estimate probabilities through random simulations.  
+The app lets users:
+- Adjust the number of people in the group (2–100)
+- Run thousands of random trials
+- See the estimated probability of a shared birthday
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# birthday_paradox-sim
+---
+
+## 🧩 Built With
+- [Flutter](https://flutter.dev/)
+- Dart
+- Monte Carlo Simulation
+- Material Design UI
+
+---
+
+## 📊 Monte Carlo Algorithm
+1. Randomly assign birthdays (0–364) to `n` people.
+2. Check if any two share the same day.
+3. Repeat for many trials.
+4. Estimate the probability as:
